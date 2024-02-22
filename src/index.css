@@ -25,3 +25,74 @@ body {
   background: #fff;
   box-shadow: 8px 8px 0px 0px #000;
 }
+.illustration-img {
+  width: 100%;
+  border-radius: 10px;
+}
+.learning-btn {
+  border: none;
+  padding: 4px 12px;
+  font-family: Figtree;
+  color: #111;
+  font-size: 12px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background-color: #f4d04e;
+}
+.published-data {
+  color: #111;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 150%;
+}
+h1 {
+  color: #111;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 150%;
+  cursor: pointer;
+}
+h1:hover {
+  color: #f4d04e;
+}
+.description {
+  color: #7f7f7f;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+}
+.person-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+@media (min-width: 1440px) {
+  #root {
+    width: 384px;
+    height: 522px;
+    box-shadow: 16px 16px 0px 0px #000;
+    gap: 12px;
+  }
+  .learning-btn {
+    font-size: 14px;
+    width: 82px;
+    height: 29px;
+    margin-top: 12px;
+  }
+  .published-data {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  .description {
+    font-size: 16px;
+  }
+  .person-info {
+    margin-top: 12px;
+  }
+}
